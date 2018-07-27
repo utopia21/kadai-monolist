@@ -57,3 +57,8 @@ gem 'rakuten_web_service' , '1.5.0'
 
 # Load .env file
 gem 'dotenv-rails'
+
+# For heroku
+group :production do
+  gem 'pg', '0.21.0'
+end
